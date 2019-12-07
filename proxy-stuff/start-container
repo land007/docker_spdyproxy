@@ -1,0 +1,3 @@
+
+#!/bin/bash
+exec /node/node /node/node_modules/spdyproxy/bin/spdyproxy -k /node/proxy-stuff/mykey.pem -c /node/proxy-stuff/mycert.pem -a /node/proxy-stuff/root.pem -p 443
